@@ -1,0 +1,109 @@
+:root {
+  /* ==========================================================================
+     ProjectPulse — Final Modern Productivity SaaS Palette
+     Main colors:
+     - Background:       #EEF3F7
+     - Primary Blue:     #315A7D
+     - Secondary Blue:   #527D9D
+     - Dark Navy:        #1F2933
+     - Body Text:        #52616B
+     - Muted Text:       #7B8790
+     - White:            #FFFFFF
+     - Border:           #D5DEE5
+
+     Accent colors:
+     - Warm Orange:      #C47A3C
+     - Success Green:    #4F7D68
+     - Warning Gold:     #B58A3A
+     - Danger Red:       #A94B4B
+     ========================================================================== */
+
+  /* Surface & Background */
+  --bg-page: #EEF3F7;
+  --bg-card: #FFFFFF;
+  --bg-soft: #E4ECF2;
+  --bg-tinted: #E2EAF0;
+  --bg-input: #FFFFFF;
+
+  /* Typography */
+  --dark-navy: #1F2933;
+  --body-text: #52616B;
+  --muted-text: #7B8790;
+
+  /* Theme Blues */
+  --primary-blue: #315A7D;
+  --primary-blue-hover: #274963;
+  --secondary-blue: #527D9D;
+
+  /* Accents */
+  --warm-orange: #C47A3C;
+  --warm-orange-hover: #B0692E;
+  --success-green: #4F7D68;
+  --warning-gold: #B58A3A;
+  --danger-red: #A94B4B;
+
+  /* Borders */
+  --border-color: #D5DEE5;
+  --border-subtle: #E2EAF0;
+  --border-accent: #B8C8D4;
+
+  /* Priority Badges */
+  --priority-high-bg: #F4DDDD;
+  --priority-high-text: #A94B4B;
+
+  --priority-medium-bg: #F5E9CC;
+  --priority-medium-text: #8A6825;
+
+  --priority-low-bg: #DCEBE4;
+  --priority-low-text: #4F7D68;
+
+  /* Kanban Columns */
+  --kanban-todo-bg: #E5EBF0;
+  --kanban-todo-accent: #527D9D;
+
+  --kanban-inprogress-bg: #F4E8D6;
+  --kanban-inprogress-accent: #C47A3C;
+
+  --kanban-done-bg: #DFECE5;
+  --kanban-done-accent: #4F7D68;
+
+  /* Metric Cards Top Indicators */
+  --metric-projects: #315A7D;
+  --metric-tasks: #C47A3C;
+  --metric-completed: #4F7D68;
+  --metric-members: #527D9D;
+
+  /* Card Geometry & Shadows */
+  --card-radius: 14px;
+  --shadow-subtle: 0 4px 16px rgba(31, 41, 51, 0.07);
+  --shadow-hover: 0 6px 20px rgba(31, 41, 51, 0.11);
+  --shadow-modal: 0 12px 36px rgba(31, 41, 51, 0.15);
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-page);
+  color: var(--body-text);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-blue-hover);
+}
